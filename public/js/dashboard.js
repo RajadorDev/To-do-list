@@ -36,6 +36,18 @@ function init() {
             }
         }
     );
+    document.querySelectorAll('.edit-button').forEach (
+        function (editButton) {
+            editButton.addEventListener('click', 
+                function (event) {
+                    if (editButton.hasAttribute('disabled'))
+                    {
+                        event.preventDefault();
+                    }
+                }
+            )
+        }
+    )
 }
 
 

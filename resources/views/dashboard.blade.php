@@ -66,6 +66,10 @@
                                 <i class="bi bi-chevron-double-left dashboard-button-icon"></i>
                             </a>
                         </button>
+
+                        <a href="{{route('task.create')}}" class="btn btn-primary">
+                            Create
+                        </a>
                         
                         <button class="btn btn-primary page-button"
                             @if (is_null($nextPage)) 

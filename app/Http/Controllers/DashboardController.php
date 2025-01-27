@@ -16,7 +16,7 @@ class DashboardController extends Controller
             return redirect()->route('dashboard', ['page' => session('lastpage', 1)]);
         }
         $page = max(1, $page);
-        $max = 10;
+        $max = 25;
         $list = TaskController::getTasksFrom(Auth::user());
         if ((count($list) > ($max * $page)))
         {

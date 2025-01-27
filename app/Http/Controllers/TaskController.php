@@ -53,7 +53,7 @@ class TaskController extends Controller
     public function edit(EditTaskRequest $request, string $id)
     {
         $task = Task::findOrFail($id);
-        asset($task->user_id === Auth::user()->id);
+        asset($task->user_id === Auth::user()->id && $task->canBeEdited());
         $task->update(
             $request->only([
                 'title',
