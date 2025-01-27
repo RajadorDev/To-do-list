@@ -1,0 +1,109 @@
+@import url('/css/base.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css');
+
+body {
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#brand {
+    font-weight: bold;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.empty h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.empty .btn {
+    padding: 6 26px;
+}
+
+.status-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.table {
+    width: 80%;
+}
+
+.table td {
+    box-sizing: border-box;
+}
+
+.list-manager-area {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.list-manager-area h1 {
+    text-align: center;
+}
+
+.action-column {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    justify-content: space-between;
+}
+
+.action-column button, .edit-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    column-gap: 3.7px;
+}
+
+
+.dashboard-button-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table td {
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 55.5px;
+}
+
+table {
+    margin: 0;
+}
+
+.table-actions {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-actions .page-button {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.table button a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.table-create-action {
+    border-radius: 4.3px;
+}

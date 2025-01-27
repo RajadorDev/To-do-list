@@ -1,0 +1,33 @@
+@import url('base.css');
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    background-image: url('/img/create_background.jpg');
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.288);
+    border-radius: 12px;
+    padding: 40px 70px;
+    row-gap: 15px;
+    color: white;
+}
+
+form textarea {
+    width: 80%;
+}
+
+form label {
+    font-size: 1.2em;
+}
