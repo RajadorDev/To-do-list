@@ -15,7 +15,7 @@
 </main>
 
 <div class="info">
-    <h2>What it does?</h2>
+    <h2>what does it do?</h2>
     <p>This is a simple to-do-list that you can create, edit and delete your tasks</p>
 </div>
 
