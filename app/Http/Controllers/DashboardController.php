@@ -44,7 +44,7 @@ class DashboardController extends Controller
     
     public function initialPage()
     {
-        return self::tryRedirectToDashboard('welcome');
+        return self::tryRedirectToDashboard('main');
     }
 
     public static function tryRedirectToDashboard(string $viewName) {
