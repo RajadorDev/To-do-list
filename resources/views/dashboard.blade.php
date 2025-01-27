@@ -29,7 +29,6 @@
             </tr>
         </thead>
         <tbody>
-            @php($i = 1)
             @foreach ($list as $task)
             <tr>
                 <td>{{ $i }}</td>

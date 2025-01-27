@@ -37,7 +37,8 @@ class DashboardController extends Controller
             'list' => $list,
             'page' => $page,
             'oldPage' => $oldPage,
-            'nextPage' => $nextPage
+            'nextPage' => $nextPage,
+            'i' => ($page == 1) ? 1 : ((($page - 1) * $max) + 1)
         ]);
     }
     
